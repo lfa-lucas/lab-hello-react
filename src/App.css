@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.landing-page{
+  background-color: whitesmoke;
+}
+
+.main-page {
+  background-color: rgb(24, 25, 43);
+  margin: 15px 25px 0px 15px ;
+  border-radius: 20px;  
+  color: white;
+}
+
+.top-bar {
+  display: flex;
+  padding: 40px 50px 0px 80px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+
+.topbar-logo {
+  width: 45px;
+  height: 49px;
+}
+
+.topbar-menu {
+  width: 24px;
+  height: 13px;
+
+  
+}
+
+.page-title {  
+  margin: 160px 0px 0px 80px;
+  font-size: 4rem;
+  font-weight: 700;  
+}
+
+.page-text {
+  margin: 20px 0px 0px 90px;
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
+.btn-page {
+  margin: 40px 0px 40px 80px;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.cards-area {
+  display: flex;
+  margin: 90px 100px 200px 100px;  
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.cards {
+  padding: 0px 10px 0px 10px;
+  max-width: 25%;    
+}
+
+.card-icon {
+  max-width: 75%;  
+}
+
+.card-title {
+  padding: 0px 0px 0px 10px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.card-text {
+  padding: 0px 0px 0px 10px;
+  font-size: 1rem;
+  font-weight: 400;
+}
